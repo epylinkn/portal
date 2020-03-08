@@ -54,7 +54,12 @@ https://trac.ffmpeg.org/wiki/StreamingGuide
 wowza guide with re-streaming examples for all streaming protocols!
 https://www.wowza.com/docs/how-to-restream-using-ffmpeg-with-wowza-streaming-engine#sample
 
-## cropping in vlc
+## vlc
+
+### streaming examples
+https://wiki.videolan.org/Documentation:Streaming_HowTo/Command_Line_Examples/
+
+### cropping
 https://forum.videolan.org/viewtopic.php?t=149455
 ```
 DISPLAY=:0 vlc glue.mp4 --video-filter=croppadd --croppadd-cropleft=200 --croppadd-cropright=200 --codec avcodec,none
@@ -104,3 +109,4 @@ https://brettviren.github.io/pygst-tutorial-org/pygst-tutorial.html
 ## some router shit
 https://superuser.com/questions/695813/wifi-udp-unicast-vs-multicast-speed
 https://raspberrypi.stackexchange.com/questions/37920/how-do-i-set-up-networking-wifi-static-ip-address/37921#37921
+https://www.raspberrypi.org/forums/viewtopic.php?t=189582
